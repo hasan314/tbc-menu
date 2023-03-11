@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Chillers",
+        "items": [
+            {
+                "name": "Item 1",
+                "price": 12
+            },
+            {
+                "name": "Item 2",
+                "price": 12
+            },
+            {
+                "name": "Item 3",
+                "price": 12
+            }
+        ]
+    },
+    {
+        "name": "Shakes",
+        "items": [
+            {
+                "name": "Item 1",
+                "price": 12
+            },
+            {
+                "name": "Item 2",
+                "price": 12
+            },
+            {
+                "name": "Item 3",
+                "price": 12
+            }
+        ]
+    },
+    {
+        "name": "Soups",
+        "items": [
+            {
+                "name": "Item 1",
+                "price": 12
+            },
+            {
+                "name": "Item 2",
+                "price": 12
+            },
+            {
+                "name": "Item 3",
+                "price": 12
+            }
+        ]
+    }
+]
