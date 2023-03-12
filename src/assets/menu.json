@@ -1,52 +1,944 @@
 [
     {
-        "name": "Chillers",
+        "type": "SHAKES",
         "items": [
             {
-                "name": "Item 1",
-                "price": 12
+                "name": "COKE FLOAT",
+                "price": 149
             },
             {
-                "name": "Item 2",
-                "price": 12
+                "name": "STRAWBERRY BLAST",
+                "price": 169
             },
             {
-                "name": "Item 3",
-                "price": 12
+                "name": "BLUEBERRY BLAST ",
+                "price": 169
+            },
+            {
+                "name": "BLACK CURRENT BLAST",
+                "price": 169
+            },
+            {
+                "name": "COLD COFFEE",
+                "price": 169
+            },
+            {
+                "name": "CHOCOLATE SHAKE",
+                "price": 169
+            },
+            {
+                "name": "VANILLA SHAKE",
+                "price": 169
+            },
+            {
+                "name": "HAZELNUT FRAPPE",
+                "price": 179
+            },
+            {
+                "name": "OREO SHAKE",
+                "price": 179
+            },
+            {
+                "name": "KIT KAT SHAKE",
+                "price": 179
+            },
+            {
+                "name": "CHOCO PEANUTBUTTER sHAKE",
+                "price": 189
+            },
+            {
+                "name": "SNICKERS SHAKE",
+                "price": 189
+            },
+            {
+                "name": "TBC house special shake",
+                "price": 229
             }
         ]
     },
     {
-        "name": "Shakes",
+        "type": "HOT BREWS",
         "items": [
             {
-                "name": "Item 1",
-                "price": 12
+                "name": "MADRAS FILTER COFFEE(KAAPI)",
+                "price": 119
             },
             {
-                "name": "Item 2",
-                "price": 12
+                "name": "NESCAFE COFFEE",
+                "price": 119
             },
             {
-                "name": "Item 3",
-                "price": 12
+                "name": "BLACK COFFEE ",
+                "price": 89
+            },
+            {
+                "name": "MASALA TEA",
+                "price": 119
+            },
+            {
+                "name": "GREEN TEA",
+                "price": 89
+            },
+            {
+                "name": "VANILLA CHAI LATTE",
+                "price": 129
+            },
+            {
+                "name": "CARAMEL HOT CHOCOLATE",
+                "price": 159
             }
         ]
     },
     {
-        "name": "Soups",
+        "type": "SOUPS",
         "items": [
             {
-                "name": "Item 1",
-                "price": 12
+                "name": "VEG LEMON CORRIANDER SOUP ",
+                "price": 129
             },
             {
-                "name": "Item 2",
-                "price": 12
+                "name": "CREAM OF MUSHROOM AND BROCCOLI ",
+                "price": 139
             },
             {
-                "name": "Item 3",
-                "price": 12
+                "name": "SWEET CORN SOUP (VEG/NON-VEG)",
+                "price": "129/159"
+            },
+            {
+                "name": "MANCHOW SOUP(VEG/NON-VEG)",
+                "price": "129/149"
+            },
+            {
+                "name": "HOT AND SOUR SOUP(VEG/NON-VEG)",
+                "price": "129/149"
+            },
+            {
+                "name": "SMOKED CHICKEN SOUP",
+                "price": 159
+            },
+            {
+                "name": "MINESTRONE (VEG/NON-VEG)",
+                "price": "139/159"
+            },
+            {
+                "name": "THUKPA (VEG/NON-VEG)",
+                "price": "149/169"
+            }
+        ]
+    },
+    {
+        "type": "CONTINENTAL TITBITS",
+        "items": [
+            {
+                "name": "FRENCH FRIES",
+                "price": ""
+            },
+            {
+                "name": "PLAIN",
+                "price": 169
+            },
+            {
+                "name": "peri-peri",
+                "price": 189
+            },
+            {
+                "name": "CHEESE",
+                "price": 199
+            },
+            {
+                "name": "TBC house SPECIAL cHEESE FRIES ",
+                "price": 249
+            },
+            {
+                "name": "EXOTIC CHEESE BREAD(VEG/NON-VEG)",
+                "price": "219/229"
+            },
+            {
+                "name": "GARLIC BREAD(PLAIN/CHEESE)",
+                "price": "169/189"
+            },
+            {
+                "name": "Jalapeno CORN CHEESE BALLS",
+                "price": 249
+            },
+            {
+                "name": "CORN SALT & PEPPER",
+                "price": 249
+            },
+            {
+                "name": "chicken WINGS PLATTER with dips",
+                "price": 349
+            },
+            {
+                "name": "FISH FINGER",
+                "price": 289
+            },
+            {
+                "name": "bruschetta (VEG/NON-VEG)",
+                "price": "229/249"
+            },
+            {
+                "name": "SHAWARMA WRAP (VEG/NON-VEG)",
+                "price": "249/279"
+            },
+            {
+                "name": "GRILLED CHICKEN AND CHIPS ",
+                "price": 329
+            },
+            {
+                "name": "FISH AND CHIPS ",
+                "price": 329
+            },
+            {
+                "name": "CHICKEN PERI-PERI WINGS",
+                "price": 309
+            },
+            {
+                "name": "PRAWNS PERI-PERI",
+                "price": 359
+            },
+            {
+                "name": "SIGNATURE MEZZE PLATTER",
+                "price": 299
+            },
+            {
+                "name": "lebanese platter(VEG/Non-veg)",
+                "price": "289/299"
+            }
+        ]
+    },
+    {
+        "type": "SALADS",
+        "items": [
+            {
+                "name": "CAESAR SALAD (VEG/NON-VEG)",
+                "price": "229/249"
+            },
+            {
+                "name": "PANZANELLA BREAD SALAD(VEG/NON-VEG)",
+                "price": "229/249"
+            },
+            {
+                "name": "open hummus salad(VEG/NON-VEG)",
+                "price": "229/249"
+            },
+            {
+                "name": "russian SALAD(veg/non-veg)",
+                "price": "229/249"
+            },
+            {
+                "name": "DESAL signature SALAD",
+                "price": 269
+            },
+            {
+                "name": "CHIcken NAwABBI SALAD",
+                "price": 269
+            },
+            {
+                "name": "GREEN SALAD",
+                "price": 99
+            },
+            {
+                "name": "RAITA ",
+                "price": 79
+            }
+        ]
+    },
+    {
+        "type": "PIZZA",
+        "items": [
+            {
+                "name": "MARGHERITA PIZZA(VEG)",
+                "price": 299
+            },
+            {
+                "name": "GARDEN SPECIAL PIZZA(VEG)",
+                "price": 349
+            },
+            {
+                "name": "FOUR SEASONS PIZZA(VEG)",
+                "price": 349
+            },
+            {
+                "name": "HAWAIIAN BBQ PIZZA(VEG)",
+                "price": 349
+            },
+            {
+                "name": "PIZZA- AL-FUNGI (VEG)",
+                "price": 349
+            },
+            {
+                "name": "SMOKY CHICKEN PIZZA(NON-VEG)",
+                "price": 379
+            },
+            {
+                "name": "CHICKEN & JALAPENO PIZZA",
+                "price": 379
+            },
+            {
+                "name": "(NON-VEG)",
+                "price": ""
+            },
+            {
+                "name": "DIAVOLA PIZZA(NON-VEG)",
+                "price": 379
+            },
+            {
+                "name": "SIGNATURE EXOTIC PIZZA (Non-VEG)",
+                "price": "399/419"
+            },
+            {
+                "name": "*ADD ON: CHEESE/TOPPING(S)",
+                "price": 39
+            }
+        ]
+    },
+    {
+        "type": "SANDWICH & BURGER",
+        "items": [
+            {
+                "name": "VEG DOMINATOR SANDWICH",
+                "price": 229
+            },
+            {
+                "name": "PANEER TIKKA SANDWICH",
+                "price": 229
+            },
+            {
+                "name": "PEANUT BUTTER SANDWICH",
+                "price": 199
+            },
+            {
+                "name": "CHEESE SANDWICH ",
+                "price": 199
+            },
+            {
+                "name": "CHICKEN DOMINATOR Sandwich",
+                "price": 239
+            },
+            {
+                "name": "Roasted Chicken Garlic Sandwich",
+                "price": 239
+            },
+            {
+                "name": "TBC DOUBLE DECKER SANdWICH (VEG/NON-VEG)",
+                "price": "229/259"
+            },
+            {
+                "name": "VEG BURGER",
+                "price": 199
+            },
+            {
+                "name": "PANEER TIKKA BURGER",
+                "price": 229
+            },
+            {
+                "name": "CHICKEN BURGER",
+                "price": 239
+            }
+        ]
+    },
+    {
+        "type": "CONTINENTAL MAIN COURSE",
+        "items": [
+            {
+                "name": "PASTA ARRABIATA (VEG/NON-VEG)",
+                "price": "279/299"
+            },
+            {
+                "name": "PASTA ALFREDO (VEG/NON-VEG)",
+                "price": "279/299"
+            },
+            {
+                "name": "PASTA PINK SAUCE (VEG/NON-VEG)",
+                "price": "279/299"
+            },
+            {
+                "name": "GARLIC PRAWN PASTA ",
+                "price": 349
+            },
+            {
+                "name": "SPAGHETTI -AL-PESTO (VEG)",
+                "price": 279
+            },
+            {
+                "name": "CHICKEN CARBONARA ",
+                "price": 319
+            },
+            {
+                "name": "VEGETABLE AU GRATIN",
+                "price": 299
+            },
+            {
+                "name": "LASAGNE (VEG/NON-VEG)",
+                "price": "329/359"
+            },
+            {
+                "name": "STROGANOFF (VEG/CHICKEN/PRAWN) WITH MEXICAN RICE",
+                "price": "329/359/399"
+            },
+            {
+                "name": "VEG CONTINENTAL PLATTER",
+                "price": 399
+            },
+            {
+                "name": "CHICKEN CONTINENTAL PLATTER",
+                "price": 429
+            },
+            {
+                "name": "FISH CONTINENTAL PLATTER",
+                "price": 429
+            }
+        ]
+    },
+    {
+        "type": "MOMOS",
+        "items": [
+            {
+                "name": "VEG MOMOs",
+                "price": ""
+            },
+            {
+                "name": "STEAMED ",
+                "price": 159
+            },
+            {
+                "name": "FRIED",
+                "price": 169
+            },
+            {
+                "name": "SCHEZWAN",
+                "price": 179
+            },
+            {
+                "name": "CRISPY",
+                "price": 189
+            },
+            {
+                "name": "Tandoori",
+                "price": 199
+            },
+            {
+                "name": "NON-VEG MOMOs ",
+                "price": ""
+            },
+            {
+                "name": "STEAMED",
+                "price": 169
+            },
+            {
+                "name": "FRIED",
+                "price": 179
+            },
+            {
+                "name": "SCHEZWAN",
+                "price": 189
+            },
+            {
+                "name": "CRISPY",
+                "price": 199
+            },
+            {
+                "name": "Tandoori",
+                "price": 209
+            },
+            {
+                "name": "MOMOs PLATTER(VEG/NON-VEG)",
+                "price": "299/319"
+            }
+        ]
+    },
+    {
+        "type": "ORIENTAL",
+        "items": [
+            {
+                "name": "POTATO CHILLI",
+                "price": 189
+            },
+            {
+                "name": "HONEY POTATO CHILLI",
+                "price": 199
+            },
+            {
+                "name": "MUSHROOM CHILLI",
+                "price": 249
+            },
+            {
+                "name": "VEG SPRING ROLL",
+                "price": 209
+            },
+            {
+                "name": "CHILLI PANEER",
+                "price": 259
+            },
+            {
+                "name": "PANEER 65",
+                "price": 259
+            },
+            {
+                "name": "BABYCORN CHILLI",
+                "price": 269
+            },
+            {
+                "name": "HOMEY BABYCORN CHILLI",
+                "price": 269
+            },
+            {
+                "name": "PANEER IN HOT GARLIC SAUCE",
+                "price": 269
+            },
+            {
+                "name": "PANEER/MUSHROOM SHASLIK",
+                "price": 269
+            },
+            {
+                "name": "SAUTEED EXOTIC VEGETABLES",
+                "price": 259
+            },
+            {
+                "name": "VEG MANCHURIAN",
+                "price": 229
+            },
+            {
+                "name": "CHICKEN SPRING ROLL",
+                "price": 289
+            },
+            {
+                "name": "CHICKEN IN HOT GARLIC SAUCE",
+                "price": 289
+            },
+            {
+                "name": "CHICKEN CHILLI",
+                "price": 289
+            },
+            {
+                "name": "LEMON CHICKEN",
+                "price": 289
+            },
+            {
+                "name": "CHICKEN 65",
+                "price": 299
+            },
+            {
+                "name": "DEVIL CHICKEN",
+                "price": 299
+            },
+            {
+                "name": "TAI CHI CHICKEN",
+                "price": 299
+            },
+            {
+                "name": "TERIYAKI CHICKEN WINGS ",
+                "price": 309
+            },
+            {
+                "name": "DRUMS OF HEAVEN",
+                "price": 359
+            },
+            {
+                "name": "PRAWN SALT & PEPPER",
+                "price": 359
+            }
+        ]
+    },
+    {
+        "type": "NOODLES/RICE",
+        "items": [
+            {
+                "name": "HAKKA NODDLES (VEG/CHICKEN/PRAWN)",
+                "price": "199/229/299"
+            },
+            {
+                "name": "SCHEZWAN NOODLES (VEG/CHICKEN/PRAWN)",
+                "price": "199/229/299"
+            },
+            {
+                "name": "CHIILI GARLIC NOODLES (VEG/CHICKEN/PRAWN)",
+                "price": "199/229/299"
+            },
+            {
+                "name": "PAN FRIED NOODLES (VEG/CHICKEN/PRAWN)",
+                "price": "199/229/299"
+            },
+            {
+                "name": "FRIED RICE (VEG/CHICKEN/PRAWN)",
+                "price": "199/229/299"
+            },
+            {
+                "name": "SCHEZWAN FRIED RICE (VEG/CHICKEN/PRAWN)",
+                "price": "199/229/299"
+            },
+            {
+                "name": "MAGGIE VEG/EGG/NON-VEG",
+                "price": "99/109/129"
+            },
+            {
+                "name": "WAI WAI VEG/EGG/NON-VEG",
+                "price": "99/109/129"
+            }
+        ]
+    },
+    {
+        "type": "MEALS IN A BOWL",
+        "items": [
+            {
+                "name": "PANEER BUTTER MASALA WITH NAAN/JEERA RICE",
+                "price": 249
+            },
+            {
+                "name": "CHICKEN ZORDAR WITH GHEE RICE",
+                "price": 299
+            },
+            {
+                "name": "GHEE ROAST CHICKEN WITH RICE ",
+                "price": 299
+            },
+            {
+                "name": "HAKKA/CHIILI GARLIC NOODLES/FRIED RICE WITH CHOICE OF CHILLI ",
+                "price": ""
+            },
+            {
+                "name": "PANEER CHILLI",
+                "price": 279
+            },
+            {
+                "name": "MANCHURIAN",
+                "price": 279
+            },
+            {
+                "name": "CHICKEN CHILLI",
+                "price": 299
+            },
+            {
+                "name": "PRAWN CHILLI ",
+                "price": 349
+            }
+        ]
+    },
+    {
+        "type": "TANDOORI",
+        "items": [
+            {
+                "name": "Afghani Chicken Tandoori",
+                "price": 379
+            },
+            {
+                "name": "Tandoori Chicken (Half)",
+                "price": 295
+            },
+            {
+                "name": "Tandoori Chicken (Full)",
+                "price": 550
+            },
+            {
+                "name": "Chicken Kalmi Kebab",
+                "price": 379
+            },
+            {
+                "name": "Murg Malai Tikka",
+                "price": 379
+            },
+            {
+                "name": "Chicken Tikka",
+                "price": 379
+            },
+            {
+                "name": "Chicken Seekh Kebab",
+                "price": 379
+            },
+            {
+                "name": "Chicken Hariyali",
+                "price": 379
+            },
+            {
+                "name": "Fish Tikka",
+                "price": 429
+            },
+            {
+                "name": "Tandoori NON-VEG PLATTER",
+                "price": 799
+            }
+        ]
+    },
+    {
+        "type": "TANDOORI VEG",
+        "items": [
+            {
+                "name": "Paneer Tikka",
+                "price": 329
+            },
+            {
+                "name": "Aachari Panner Tikka ",
+                "price": 329
+            },
+            {
+                "name": "MUSHROOM TIKKA",
+                "price": 329
+            },
+            {
+                "name": "Punjabi Chaap",
+                "price": 279
+            },
+            {
+                "name": "Afghani Chaap",
+                "price": 279
+            },
+            {
+                "name": "Hariyali Chaap ",
+                "price": 279
+            },
+            {
+                "name": "Tandoori Aaloo",
+                "price": 279
+            },
+            {
+                "name": "Tandoori Veg Platter",
+                "price": 699
+            }
+        ]
+    },
+    {
+        "type": "MAIN COURSE",
+        "items": [
+            {
+                "name": "Shahi Paneer",
+                "price": 329
+            },
+            {
+                "name": "Palak Paneer",
+                "price": 329
+            },
+            {
+                "name": "Aaloo Jeera",
+                "price": 259
+            },
+            {
+                "name": "Daal Makhani",
+                "price": 299
+            },
+            {
+                "name": "DAL TADKA",
+                "price": 199
+            },
+            {
+                "name": "SEASONAL MIX VEG",
+                "price": 279
+            },
+            {
+                "name": "PANEER BUTTER MASALA",
+                "price": 329
+            },
+            {
+                "name": "MATAR PANEER",
+                "price": 329
+            },
+            {
+                "name": "KADAI PANEER",
+                "price": 329
+            },
+            {
+                "name": "PANEER LABABDAR",
+                "price": 329
+            },
+            {
+                "name": "KADAI MUSHROOM",
+                "price": 329
+            },
+            {
+                "name": "LAKHNAVI KOFTA ",
+                "price": 329
+            },
+            {
+                "name": "DHABA STYLE EGG CURRY",
+                "price": 199
+            },
+            {
+                "name": "CHICKEN DEHATI",
+                "price": 379
+            },
+            {
+                "name": "KADAI CHICKEN",
+                "price": 379
+            },
+            {
+                "name": "CHICKEN RHARA",
+                "price": 399
+            },
+            {
+                "name": "PRAWN CURRY",
+                "price": 399
+            },
+            {
+                "name": "Butter Chicken Masala ",
+                "price": 379
+            },
+            {
+                "name": "Chicken Bharta",
+                "price": 379
+            },
+            {
+                "name": "Chicken ZORDAAR ",
+                "price": 399
+            },
+            {
+                "name": "Chicken Tikka Masala",
+                "price": 379
+            },
+            {
+                "name": "MURGH MUSALLAM",
+                "price": 600
+            }
+        ]
+    },
+    {
+        "type": "BREADS",
+        "items": [
+            {
+                "name": "Tandoori Roti",
+                "price": 25
+            },
+            {
+                "name": "Butter Tandoori Roti ",
+                "price": 30
+            },
+            {
+                "name": "Plain Naan",
+                "price": 40
+            },
+            {
+                "name": "Butter Naan",
+                "price": 45
+            },
+            {
+                "name": "Garlic Naan",
+                "price": 45
+            },
+            {
+                "name": "Stuffed Kulcha ",
+                "price": 60
+            },
+            {
+                "name": "LACCHA PARATHA",
+                "price": 39
+            },
+            {
+                "name": "CHILLI AND GARLIC PARATHA",
+                "price": 49
+            },
+            {
+                "name": "CHAPATI (* SUBJECT TO AVAILIBILTY)",
+                "price": 19
+            }
+        ]
+    },
+    {
+        "type": "BIRYANI",
+        "items": [
+            {
+                "name": "STEAM RICE",
+                "price": 119
+            },
+            {
+                "name": "JEERA RICE",
+                "price": 139
+            },
+            {
+                "name": "CHICKEN BIRYANI",
+                "price": 259
+            },
+            {
+                "name": "VEG BIRYANI",
+                "price": 199
+            },
+            {
+                "name": "EGG BIRYANI",
+                "price": 199
+            }
+        ]
+    },
+    {
+        "type": "SIZZLERS",
+        "items": [
+            {
+                "name": "CONTINENTAL VEG SIZZLER",
+                "price": 449
+            },
+            {
+                "name": "CONTINENTAL NON-VEG SIZZLER",
+                "price": 489
+            },
+            {
+                "name": "CHINESE VEG SIZZLER",
+                "price": 449
+            },
+            {
+                "name": "CHINESE NON-VEG SIZZLER",
+                "price": 489
+            }
+        ]
+    },
+    {
+        "type": "CHILLERS",
+        "items": [
+            {
+                "name": "Fruit Punch",
+                "price": 169
+            },
+            {
+                "name": "Blue Lagoon",
+                "price": 159
+            },
+            {
+                "name": "GREEN APPLE",
+                "price": 159
+            },
+            {
+                "name": "VIRGIN MOJITO",
+                "price": 159
+            },
+            {
+                "name": "PINK LADY",
+                "price": 159
+            },
+            {
+                "name": "BERRY LICIOUS KISS",
+                "price": 159
+            },
+            {
+                "name": "KIWI FRUIT LEMONADE",
+                "price": 159
+            },
+            {
+                "name": "MASALA THUMPS UP",
+                "price": 139
+            },
+            {
+                "name": "SUMMER DREAMS",
+                "price": 159
+            },
+            {
+                "name": "NON ALCOHOLIC BEER",
+                "price": 169
+            },
+            {
+                "name": "RED BULL",
+                "price": 159
+            },
+            {
+                "name": "ICE-TEA (LEMONGRASS/PEACH)",
+                "price": 169
+            },
+            {
+                "name": "MASALA SODA",
+                "price": 129
+            },
+            {
+                "name": "SOFT DRINKS",
+                "price": 69
+            },
+            {
+                "name": "BOTTLE WATER",
+                "price": 39
             }
         ]
     }
