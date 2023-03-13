@@ -1,0 +1,25 @@
+@import '../../../styles.scss';
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+    font-weight: bold;
+}
+
+.item-name{
+    padding-left: 24px;
+}
+
+.item-price{
+    padding-right: 24px;
+}
+
+
+.item-name,
+.item-price {
+    color: $color-item;
+    font-size: $item-size;
+}

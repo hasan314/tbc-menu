@@ -1,5 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+$color-bg: #FAF6F7;
+$color-menu: #2a9d8f;
+$color-sub: #7b886b;
+$color-item: #4b3b40;
+
+$menu-size: 28px;
+$category-size: 20px;
+$item-size: 12px;
+
+
 html{
-    background-color: #FAF6F7;
+    background-color: $color-bg;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }

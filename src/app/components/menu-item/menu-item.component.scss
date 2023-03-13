@@ -1,6 +1,10 @@
+@import '../../../styles.scss';
+
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
 
     .category-title{
@@ -8,17 +12,21 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 200px;
+        width: 350px;
         height: 40px;
         padding-left: 16px;
         padding-right: 16px;
+        border-bottom: 1px solid $color-item;
+        
+
+        .category-name{
+            color: $color-sub;
+            font-size: $category-size;
+        }
     }
 
     .item-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 12px;
+        width: 600px;
     
         &.hidden{
             display: none;

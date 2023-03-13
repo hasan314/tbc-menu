@@ -1,6 +1,6 @@
 <div class="container">
     <div class="category-title" (click)="categoryClicked()">
-        <h2 [innerText]="category.type"></h2>
+        <h2 class="category-name" [innerText]="category.type"></h2>
         <div class="icon" *ngIf="tabCollapsed; else upIcon">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                 class="bi bi-caret-down-fill" viewBox="0 0 16 16">
@@ -10,8 +10,7 @@
         </div>
     </div>
     <div *ngFor="let item of category.items" class="item-container" [ngClass]="{'hidden': tabCollapsed}">
-        <label [innerText]="item.name"></label>
-        <label>{{ item.price | currency:'INR':'symbol':'0.0'}}</label>
+        <app-item-display [item]="item" ></app-item-display>
     </div>
 </div>
 

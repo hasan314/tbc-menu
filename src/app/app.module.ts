@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/main-layout/header/header.componen
 import { MenuContainerComponent } from './components/menu-container/menu-container.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MenuItemComponent } from './components/menu-item/menu-item.component';
+import { ItemDisplayComponent } from './components/item-display/item-display.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MenuItemComponent } from './components/menu-item/menu-item.component';
     MainLayoutComponent,
     HeaderComponent,
     MenuContainerComponent,
-    MenuItemComponent
+    MenuItemComponent,
+    ItemDisplayComponent
   ],
   imports: [
     BrowserModule, 

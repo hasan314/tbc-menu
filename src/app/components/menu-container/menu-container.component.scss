@@ -1,13 +1,24 @@
+@import '../../../styles.scss';
+
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
     .menu-container{
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 24px;
+        
+    }
+
+    .menu-title{
+        color: $color-menu;
+        font-size: $menu-size;
+        padding-bottom: 36px;
+        padding-top: 36px;
         
     }
 }
