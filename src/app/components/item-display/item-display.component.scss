@@ -11,10 +11,12 @@
 
 .item-name{
     padding-left: 24px;
+    white-space: pre-wrap;
 }
 
 .item-price{
     padding-right: 24px;
+    white-space: nowrap;
 }
 
 

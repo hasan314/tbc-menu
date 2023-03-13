@@ -12,7 +12,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 350px;
+        width: 200px;
         height: 40px;
         padding-left: 16px;
         padding-right: 16px;
@@ -26,7 +26,7 @@
     }
 
     .item-container{
-        width: 600px;
+        width: 380px;
     
         &.hidden{
             display: none;
