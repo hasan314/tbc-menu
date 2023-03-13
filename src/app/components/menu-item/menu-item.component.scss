@@ -12,8 +12,8 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 350px;
-        height: 40px;
+        width: 200px;
+        height: 48px;
         padding-left: 16px;
         padding-right: 16px;
         border-bottom: 1px solid $color-item;
@@ -22,11 +22,12 @@
         .category-name{
             color: $color-sub;
             font-size: $category-size;
+            line-height: 22px;
         }
     }
 
     .item-container{
-        width: 600px;
+        width: 380px;
     
         &.hidden{
             display: none;
